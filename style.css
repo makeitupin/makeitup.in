@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+textarea {
+    resize: none;
+  }
+body{
+    background-color: #0f0f0f;
+}
+.navbar{
+    justify-content:space-between;
+    display: flex;
+    height: 50px;
+    border-bottom: #ffffff solid;
+    padding: 15px;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: x-large;
+   
+}
+.logo img{
+width: 30px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+.textred {
+    color: rgb(240, 0, 0);
+    font-size: 18px;
+    font-weight: 550;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+section {
+color: #ffffff;
+/* display: flex; */
+/* height: 100px; */
+padding-top: 40px;
+
+}
+.head-line {
+    font-size: 100px;
+    font-weight: 550;
+}
+.low-font {
+    color: rgb(222, 222, 222);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.button{
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: rgb(56, 56, 56);
+    font-size: 25px;
+    padding: 5px 15px;
+    border: none;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.name {
+    /* enter your name hare */
+    width: 380px;
+    border-radius: 50px;
+    height: 30px;
+    padding-left: 10px;
+    padding: 16px;
+    border: none;
+    margin: 0px;
+    background-color:rgb(56, 56, 56);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.email{
+    /* enter your name here */
+    width: 380px;
+    border-radius: 50px;
+    height: 30px;
+    padding-left: 10px;
+    padding: 16px;
+    border: none;
+    margin: 40px;
+    background-color: rgb(56, 56, 56);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.section2 {
+    align-items: center;
+}
+.button2 {
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(198, 0, 0);
+    width: 120px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    border-radius: 15px;
+    background-color: #1c1c1c;
+    height: 500px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-bottom: 18px;
+} 
+
+.numlist {
+    /* replace by button */
+    /* country code */
+    width: 90px;
+    border-radius: 50px;
+    height: 30px;
+    padding-left: 10px;
+    padding: 16px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Contact {
+    /* enter your contact hare */
+    width: 270px;
+    border-radius: 50px;
+    height: 30px;
+    padding-left: 10px;
+    padding: 16px;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textarea{
+    /* drop your massge here */
+    width: 380px;
+    height: 180px;
+    border-radius: 12px;
+    padding: 15px;
+    padding-left: 5px;
+    margin-top: 0px;
+    background-color: rgb(56, 56, 56);
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.jadugar{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.jadugar2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+
+}
+.frame{
+    margin: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.red{
+    color: red;
+    text-decoration: none;
+}
+/* new page 2 start from there */
+.box {
+    background-color: #1c1c1c;
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* logo section start from there */
+.align {
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    align-items: center;
+    border-radius: 50px;
+}
+.boximage {
+    height: 160px;
+    width: 160px;
+    margin-top: 460px;
+} 
+.boximage2 {
+    height: 170px;
+    width: 260px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boximage {
+    height: 160px;
+    width: 160px;
+}   
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 6px;
+    text-align: justify;
+    padding: 5px;
+    height: 0px;
+}
+.peragraph{
+    font-size: 20px;
+    width: 260px;
+    margin-top: 8px;
+}
+.country{
+    background-color: #1c1c1c;
+    width: 120px;
+    border-radius: 50px;
+    border-color: none;
+}
+/* are you strugling to grow your business? */
+.box6{
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 1320px;
+    height: 200px;
+}
+.outerbox {
+    display: flex;
+    justify-content: center;
+}
+.fontstyle {
+    color: white;
+    font-size: 35px;
+    margin-top: 0%;
+}
+.heading{
+    margin-bottom: 15px;
+    display: flex;
+}
+.welcome {
+    font-size: 30px;
+    width: 1350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    text-align: justify;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.service{
+    font-size: 40px;
+    margin-left: 80px;
+
+}
+
+/* website sectio start there */
+.image-formating{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.web-font{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+.web-font-pera{
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 22px;
+    font-size: 20px;
+    display: flex;
+    width: 280px;    
+}
+.web-button{
+    display: flex;
+    justify-content: center;
+}
+/* website section end there */
+/* google ads section start from there */
+.formating{
+    display: flex;
+    justify-content: center;
+}
+.ads-image-formating{
+    width: 200px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ads-font{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.ads-font-pera{
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 22px;
+    font-size: 20px;
+    display: flex;
+    width: 280px;    
+}
+.ads-button{
+    display: flex;
+    justify-content: center;
+}
+
+/* google section end there */
+/* meta ads section strat from there */
+.new-sec{
+    width: 300px;
+    height: 500px;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* meta ads section end from there */
+/* footer area start from there  */
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color:#1c1c1c;
+    border-top: #ffffff solid;
+}
+.glow-hr{
+    border: none;
+            height: 1px;
+            background: linear-gradient(to right, #1c1c1c, #ffffff, #1c1c1c);
+            /* box-shadow: 0 0 10px #ff6ec4; */
+            margin: 20px ;
+            border-radius: 50px;
+}
+
+.footer{
+    border: none;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.footer-div{
+    display: flex;
+    float: left;
+}
+.footer-sec1{
+    height: 280px;
+    width: 350px;
+    margin: 20px;
+}
+.F-sec1{
+    height: 280px;
+    width: 230px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.fs-mail{
+    height: 80px;
+    width: 110px;
+}
+.fs-img{
+    height: 100px;
+    width: 100px;
+}
